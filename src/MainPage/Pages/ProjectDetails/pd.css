@@ -1,0 +1,231 @@
+/* .btt{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 300px;
+    border:solid 1px #6345ED;
+   } */
+.btt {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    color: #6345ED !important;
+    width: auto !important;
+    border: solid 1px #9b45ed !important;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.btt2 {
+
+    background-color: #6345ED !important;
+    color: rgb(255, 255, 255) !important;
+    width: auto;
+    border: solid 1px #9b45ed !important;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-main-get {
+    border-radius: 2px !important;
+}
+
+/*    
+   .btt2{
+       
+       background: linear-gradient(90deg,#6345ED,#DC39FC);
+       color: rgb(255, 255, 255);
+       width: 300px;
+       border:solid 1px #6345ED;
+   } */
+
+.btt:focus {
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    color: rgb(255, 255, 255);
+    width: auto;
+    border: solid 1px #9b45ed;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.linkbt {
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bcolor {
+    color: #6345ED;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 769px) {
+
+    .mainct {
+        background-color: #297bff00;
+    }
+}
+
+
+.icon-text {
+
+    border-left: 2px solid #1890ff;
+    height: 40px;
+    padding: 0px;
+    display: inline-block;
+    width: 56px;
+    font-size: 18px;
+    background-color: linear-gradient(90deg,#6345ED,#DC39FC);
+    text-align: center;
+    color: white;
+    border-top: 2px solid #1890ff;
+    border-bottom: 2px solid #1890ff;
+
+}
+
+.icon-text10 {
+    border-left: 2px solid #1890ff;
+    height: 40px;
+    padding: 0px;
+    display: inline-block;
+    width: 56px;
+    font-size: 18px;
+    background-color: linear-gradient(90deg,#6345ED,#DC39FC);
+    text-align: center;
+    color: white;
+    border-top: 2px solid #1890ff;
+    border-bottom: 2px solid #1890ff;
+    border-right: 2px solid #1890ff;
+}
+
+.icon-text-on {
+    border-left: 2px solid #1890ff;
+    height: 40px;
+    padding: 0px;
+    display: inline-block;
+    width: 56px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    color: #1890ff;
+    border-top: 2px solid #1890ff;
+    border-bottom: 2px solid #1890ff;
+
+}
+
+.icon-text-on10 {
+    border-left: 2px solid #1890ff;
+    height: 40px;
+    padding: 0px;
+    display: inline-block;
+    width: 56px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    color: white;
+    border-top: 2px solid #1890ff;
+    border-bottom: 2px solid #1890ff;
+    border-right: 2px solid #1890ff;
+}
+
+
+.icon-text-on-rating {
+    border-left: 2px solid #6345ED;
+    height: 35px;
+    padding: 0px;
+    display: inline-block;
+    width: 50px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    color: #6345ED;
+    border-top: 2px solid #6345ED;
+    border-bottom: 2px solid #6345ED;
+
+}
+
+.icon-text-on10-rating {
+    border-left: 2px solid #6345ED;
+    height: 35px;
+    padding: 0px;
+    display: inline-block;
+    width: 50px;
+    font-size: 18px;
+    background-color: white;
+    text-align: center;
+    color: #6345ED;
+    border-top: 2px solid #6345ED;
+    border-bottom: 2px solid #6345ED;
+    border-right: 2px solid #6345ED;
+}
+
+
+
+.icon-text-rating {
+
+    border-left: 2px solid #6345ED;
+    height: 35px;
+    padding: 0px;
+    display: inline-block;
+    width: 50px;
+    font-size: 18px;
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    text-align: center;
+    color: white;
+    border-top: 2px solid #6345ED;
+    border-bottom: 2px solid #6345ED;
+
+}
+
+.icon-text10-rating {
+    border-left: 2px solid #6345ED;
+    height: 35px;
+    padding: 0px;
+    display: inline-block;
+    width: 50px;
+    font-size: 18px;
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    text-align: center;
+    color: white;
+    border-top: 2px solid #6345ED;
+    border-bottom: 2px solid #6345ED;
+    border-right: 2px solid #6345ED;
+}
+
+
+.capsTop {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.capsBot {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.ratingsCaps {
+    font-size: 26px;
+font-weight: 500;
+margin-top: 10px;
+margin-bottom: 10px;
+color: black;
+}
+
+

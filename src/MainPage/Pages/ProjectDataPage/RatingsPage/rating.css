@@ -1,0 +1,74 @@
+.maindivRate {
+  padding: 10px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.subdivRate {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rateingMainsub {
+  width: 657px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+
+.borderRating {
+  border: 2px solid #E3E9EF;
+  padding: 10px;
+  margin-top: 20px;
+
+
+}
+
+.flex__Btn {
+  display: flex;
+  flex-direction: row;
+  width: 85px;
+  position: absolute;
+  right: 35px;
+}
+
+
+
+.btn__curssol {
+  width: 30px;
+  height: 30px;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-right: 3px;
+  border: 1px solid #1890ff;
+  background: #1890ff;
+  color: white;
+  font-weight: 400
+}
+
+.btn__curssol_notallowes {
+  width: 40px;
+  height: 30px;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-right: 3px;
+  border: 1px solid #1890ff;
+  background: #1890ff;
+  color: white;
+  font-weight: 400;
+  cursor: not-allowed;
+  font-weight: 400;
+  border-radius: 2px;
+}

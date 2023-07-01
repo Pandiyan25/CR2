@@ -1,0 +1,5 @@
+.mobilescreen{
+    width : 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(236, 166, 253));
+}

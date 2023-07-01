@@ -1,0 +1,44 @@
+
+.mainPageImg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* margin-bottom: 10px; */
+    background-image:  url("../../assets/img/guardian.png");
+    width: 80%;
+    height:80px;
+    background-position: center;
+    /* border-bottom: 2px solid #E3E9EF */
+}
+
+
+.mini-sidebar .mainPageImg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-image:  url("../../assets/img/designLogo1.png"); */
+    background-image:  url("../../assets/img/guardian.png");
+    width: 80%;
+    height:90px;
+    height:120px;
+    background-position: center;
+    /* border-bottom: 2px solid #E3E9EF */
+}
+
+.mini-sidebar.expand-menu .mainPageImg  {
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    background-image:  url("../../assets/img/guardian.png");
+    width: 80%;
+    height:90px;
+    height:120px;
+    background-position: center;
+    /* border-bottom: 2px solid #E3E9EF */
+}
+
+
+.sidebarsupport {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}

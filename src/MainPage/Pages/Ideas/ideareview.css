@@ -1,0 +1,151 @@
+.ideadetTop {
+  border: solid 1px #e3e9ef;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ideadet {
+  border: solid 1px #e3e9ef;
+  border-radius: 5px;
+  padding: 20px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.ideadet.mb-2.cs {
+  display: block;
+}
+.ideadet.mb-2.cs.t {
+  display: block;
+  padding: 30px 20px;
+}
+.revval {
+  text-align: center;
+}
+.rate {
+  border: solid 1px #e3e9ef;
+  border-radius: 5px;
+  padding: 25px 20px 16px 40px;
+}
+
+.planbt {
+  height: 56px;
+  border: 1px solid #6345ed;
+  width: 178px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background: white;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.planbtactive {
+  border: 0px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #6345ed, #dc39fc) !important;
+  color: white;
+  padding: 10px 10px;
+  font-size: 12px;
+}
+.ratedet {
+  float: right;
+  display: flex;
+}
+.mainideabg.review {
+  background-color: white !important;
+  height: auto;
+  padding: 80px 100px 100px 100px;
+}
+.detprof {
+  justify-content: space-evenly;
+  display: flex;
+  float: left;
+}
+.navbt {
+  border: 0px solid;
+}
+
+.completeView {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 30%;
+  text-align: center;
+  z-index: 5;
+}
+@media only screen and (max-width: 800px) {
+  .ratedet {
+    float: left;
+    display: flex;
+  }
+  .mainideabg.review {
+    background-color: white !important;
+    height: auto;
+    padding: 16px;
+  }
+  .detprof {
+    display: flex;
+    float: left;
+  }
+
+  .completeView {
+    margin-top: 50%;
+    margin-left: 6%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  button.upgradeBtn{
+    padding: 7px 11px;
+    margin-left: 14px;
+    border: 0px;
+    border-radius: 4px;
+    background: #2AC000 !important;
+    color: white;
+    font-size: 12px;
+  }
+}
+
+.tab-design {
+  background-color: transparent !important;
+  color: black !important;
+  font-size: 20px !important;
+}
+
+.tab-design:active,
+.tab-design:focus,
+.tab-design:hover {
+  color: #6345ed !important;
+  background-color: transparent !important;
+}
+
+.tab-design-active {
+  color: #6345ed !important;
+  font-size: 20px !important;
+  background-color: transparent !important;
+}
+
+.section.validate-page {
+  padding: 30px 0 0;
+}
+
+.logo-validate {
+  width: 8%;
+  border-radius: 15%;
+}
+
+.title.validate-head-ans {
+  font-size: 22px !important;
+  color: black;
+}
+.ans-validate {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title.validate-head-ans {
+  font-size: 22px !important;
+  color: #808080;
+}

@@ -1,0 +1,161 @@
+                        <div className="content container-fluid">
+
+                            <div className="page-header">
+
+                                <div className="row align-items-center" style={{ width: '100%' }}>
+                                    <div className="col">
+                                       <h2 style={{fontFamily:"'Poppins', sans-serif",fontWeight:"600"}}>Roadmap</h2>
+                                    </div>
+                                    <div className="col-auto float-right ml-auto">
+                                        <button className="btn add-btn2" style={{ margin: '10px' }} onClick={() => openAddMapfunc()}> ADD</button>
+                                        <button className="btn add-btn2" style={{ margin: '10px' }} onClick={() => openEditMapfunc()}> VIEW</button>
+                                        {/* onClick={() => openEditMapfunc()} */}
+                                    </div>
+                                </div>
+                            </div>
+                            {/* /Page Header */}
+                            {/* Search Filter */}
+
+                            <div className="row filter-row">
+                                <div className="col-md-3" style={{ padding: '0px' }}>
+                                    <div className="dateDiv">
+                                        <h5 style={{
+                                            fontWeight: '600', marginBottom: '0px'
+                                        }}>Current Date:</h5>
+                                        <h5 style={{ marginBottom: '0px' }}>{datetime}</h5>
+                                    </div>
+                                </div>
+                                <div className="col-md-7 dateMainDiv">
+                                    <div className="subMainDiv">
+                                        <h5 className="subMainDivH5" style={{
+                                            fontWeight: '600', marginBottom: '0px'
+                                        }} >From Date:</h5>
+
+
+                                        <input className="form-control floating datetimepicker" max={toDate} defaultValue={date} type="date" style={{ height: '35px' }} onChange={(e) => setFromDateSearch(e.target.value)} />
+                                    </div>
+                                    <div className="subMainDiv">
+                                        <h5 className="subMainDivH5" style={{
+                                            fontWeight: '600', marginBottom: '0px'
+                                        }}>To Date:</h5>
+                                        <input className="form-control floating datetimepicker" min={disablePastDate()} defaultValue={date} type="date" style={{ height: '35px' }} onChange={(e) => setToDate(e.target.value)} />
+                                    </div>
+                                </div>
+                                <div className="col-md-2" style={{ padding: '0px' }}>
+                                    <div className="">
+                                        <button className="btn2 add-btn3" onClick={() => getUserDetailsFunc()}> Search</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="page-header">
+                                <div className="row align-items-center" style={{ width: '100%' }}>
+                                    <div className="col">
+                                        {/* <h3 className="page-title" style={{ fontSize: '25px' }}>Roadmap</h3> */}
+                                    </div>
+                                    <div className="col-auto float-right ml-auto">
+                                        {/* onClick={() => openEditMapfunc()} */}
+                                        {/* <button className="btn add-btn-search" style={{ margin: '10px' }} onClick={()=>uploadExcelData()}> */}
+                                        {/* <Upload
+                                            accept="application/vnd.xlsx"
+                                            name="avatar"
+                                            listType="picture-card"
+                                            className="avatar-uploader"
+                                            showUploadList={false}
+                                            action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+                                            beforeUpload={beforeUpload}
+                                            onChange={(e) => uploadExcelData(e.target.files[0])}
+                                        >
+                                            <div className="ant-upload-text">Upload</div>
+
+                                        </Upload> */}
+                                        {/* </button> */}
+                                        <input className="btn add-btn-search" type="file" placeholder='Upload File' style={{ margin: '10px' }} onChange={(e) => uploadExcelData(e.target.files[0])} />
+                                        {/* <button className="btn add-btn-search" style={{ margin: '10px' }} onClick={()=>uploadExcelData()}> Upload File</button> */}
+                                        {/* onClick={() => openAddMapfunc()} */}
+                                        <button className="btn add-btn-search" style={{ margin: '10px' }} onClick={() => downloadBugetDatafunc()}> Download Sample Format</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* <div className="row filter-row">
+                        <div className="col-sm-6 col-md-3">
+                            <div className="form-group form-focus select-focus">
+                                <div>
+                                    <input className="form-control floating datetimepicker" type="date" />
+                                </div>
+                                <label className="focus-label">From</label>
+                            </div>
+                            
+                        </div>
+                        <div className="col-sm-6 col-md-3">
+                            <div className="form-group form-focus select-focus">
+                                <div>
+                                    <input className="form-control floating datetimepicker" type="date" />
+                                </div>
+                                <label className="focus-label">To</label>
+                            </div>
+                        </div>
+                       
+                        <div className="col-sm-6 col-md-3">
+                            <a href="#" className="btn btn-success btn-block"> Search </a>
+                        </div>
+                    </div> */}
+                            {/* /Search Filter */}
+
+                            <div className="col-md-12">
+
+                                <div className="row">
+                                    <div className="col-md-12" style={{ padding: '0px' }}>
+                                        <div className="card card-table flex-fill">
+
+                                            <div className="card-body">
+                                                <div className="table-responsive">
+                                                    <Table className="table-striped"
+                                                        pagination={{
+                                                            total: tokenStd.length,
+                                                            showTotal: (total, range) => `Showing ${range[0]} to ${range[1]} of ${total} entries`,
+                                                            showSizeChanger: true, onShowSizeChange: onShowSizeChange, itemRender: itemRender
+                                                        }}
+                                                        style={{ overflowX: 'auto' }}
+                                                        columns={columns}
+                                                        // bordered
+                                                        dataSource={tokenStd}
+                                                        rowKey={record => record.id}
+                                                    // onChange={this.handleTableChange}
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <AddRoadMap getUserDetailsFunc={getUserDetailsFunc} show={showAddPage} handleClose={onHandleClose} />
+                            <EditRoadMap
+                                
+                            NoofworkingDaysError={ NoofWorkingErr}
+                            endDateError={ endDateErr}
+                            mainDescError={MainDesceErr }
+                            subDesError={SubDesceErr }
+                            startDateError={ startDateErr}
+                            statusError={StatusErr }
+                            getUserDetailsFunc={getUserDetailsFunc}
+                            startDate={startDate}
+                            endDate={endDate}
+                            showEditPage={tokenStdPer}
+                            settokenStdPer={settokenStdPer}
+                            show={editNew}
+                            handleClose={handleCloseEditPopup}
+                            MainDesc={MainDesc}
+                            SubDesc={SubDesc}
+                            NoofWorking={NoofWorking}
+                            Status={Status}
+                            setStartDate={setStartDate}
+                            setEndDate={setEndDate}
+                            setMainDesc={setMainDesc}
+                            setSubDesc={setSubDesc}
+                            setNoofWorking={setNoofWorking}
+                            setStatus={setStatus}
+                            updateTokenFunc={updateTokenFunc}
+                            />
+                        </div>

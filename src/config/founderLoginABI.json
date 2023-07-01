@@ -1,0 +1,47 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_ad",
+                "type": "address"
+            }
+        ],
+        "name": "addFounder",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllFounderAddress",
+        "outputs": [
+            {
+                "internalType": "address[]",
+                "name": "",
+                "type": "address[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_ad",
+                "type": "address"
+            }
+        ],
+        "name": "verifyFounder",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "condition",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

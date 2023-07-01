@@ -1,0 +1,249 @@
+.mainideabg.subscription {
+    background-color: white !important;
+    height: auto;
+    padding: 80px 100px 100px 100px;
+}
+.planbt{
+    height: 56px;
+    border: 1px solid #6345ED;
+    width: 178px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: white;
+    color:rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.planbtactive{
+    height: 56px;
+    border: 1px solid #DC39FC;
+    width: 178px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: linear-gradient(90deg,#411bef,#d60dfd);
+    color: white;
+    font-size: 14px;
+
+}
+
+span.itemFeature{
+    font-size: 10px;
+    color: grey;
+
+}
+.term{
+
+    border: 0px solid #6345ED;
+    width: 55px;
+    background: transparent;
+    color:rgb(51, 51, 51);
+    font-size: 10px;
+    font-weight: 600;
+    height: 30px;
+    padding-right: 10px;
+}
+.termactive{
+    width: 55px;
+height: 30px;
+border-radius: 15px;
+border: 0px solid;
+background: linear-gradient(180deg,#411bef,#d60dfd);
+    color: white;
+    font-size: 10px;
+   padding-right: 13px;
+
+}
+.cardplan {
+    border: solid 1px #9c45ed;
+    height: auto !important;
+    padding: 30px 10px 30px 10px;
+    border-radius: 5px;
+}
+
+.cardMyPlan{
+    height: auto !important;
+    margin-top: 20px;
+   
+}
+.cardplanpopup {
+    border: solid 1px #9c45ed;
+    height: auto !important;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.planhead {
+    color: #973ff3;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+.plandet{
+    font-weight: 600;
+}
+.features{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.high {
+    font-size: 30px;
+    font-weight: 600;
+}
+p.featurepoints {
+    font-size: 11px;
+    color: grey;
+}
+
+.featurepointimg{
+    vertical-align: middle;
+    border-style: none;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.points{
+width: 75%;
+}
+.getstarted{
+    margin-top: 30px;
+    width: 100%;
+    border: 0px;
+    color: white;
+    background: linear-gradient(270deg,#411bef,#d60dfd);
+    height: 45px;
+    border-radius: 5px;
+}
+.changeplan {
+    width: 156px;
+    border: 0px;
+    color: white;
+    background: #2AC000;
+    height: 45px;
+    border-radius: 5px;
+    float: right;
+}
+.addcard {
+    width: 156px;
+    border: 0px;
+    color: white;
+    background: linear-gradient(270deg,#411bef,#d60dfd);
+    height: 45px;
+    border-radius: 5px;
+    float: right;
+}
+
+.myplan {
+    border: 1px solid #cacacb;
+    height: auto;
+    border-radius: 5px;
+    padding: 28px;
+}
+
+.planFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.cardinfosub{
+
+    height: auto;
+
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.addcardinfo {
+    border: 1px solid #cacacb;
+    height: auto;
+    border-radius: 5px;
+    padding: 28px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+h3.billinfoh {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 600.98px) {
+    .mainideabg.subscription {
+        background-color: white !important;
+        height: auto;
+        padding: 20px;
+    }
+    .myplan{
+        padding: 14px;
+    }
+}
+
+@media only screen and (max-width: 1048px) {
+    .planFlex{
+        display: block;
+    }
+    .changeplan{
+        float: none;
+    }
+}
+
+.featured-ribbon {
+    width: 200px;
+    background: #1B8DC8;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    font-size: 0.65em;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    /* Custom styles */
+    /* Different positions */
+  }
+  
+  .featured-ribbon.sticky {
+    position: fixed;
+  }
+  
+  .featured-ribbon.shadow {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .featured-ribbon.top-left {
+    top: 25px;
+    left: -50px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .featured-ribbon.top-right {
+    top: 25px;
+    right: -50px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
+  .featured-ribbon.bottom-left {
+    top: auto;
+    bottom: 25px;
+    left: -50px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
+  .featured-ribbon.bottom-right {
+    top: auto;
+    right: -50px;
+    bottom: 25px;
+    left: auto;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  

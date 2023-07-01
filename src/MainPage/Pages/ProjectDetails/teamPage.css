@@ -1,0 +1,18 @@
+.edit-funding {
+    background-color: #eee;
+    border: 1px solid #e3e3e3;
+    border-radius: 12px;
+    color: #bbb;
+    float: right;
+    font-size: 12px;
+    line-height: 15px;
+    min-height: 15px;
+    text-align: center;
+    width: 20px;
+}
+
+.team-edit-position{
+    right: 0px;
+    top:0px;
+    position: absolute;
+}

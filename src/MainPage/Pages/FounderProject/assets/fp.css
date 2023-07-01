@@ -1,0 +1,32 @@
+
+
+.wrap{
+
+  
+    box-shadow: none;
+    border:0px;
+}
+.sociallogo{
+    width: 32px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.ft-weight{
+    font-weight: 500;
+    }
+    .circle{
+       width:25px;
+       height:25px;
+       border-radius:50%;
+       border:solid 3px #6345ED;
+       z-index: 1002;
+    
+    }
+    a.nav-link.active.cs{
+        border-bottom:solid 2px #6345ED !important;
+    }
+    li.nav-item.cent{
+        text-align: center;
+        text-align: -moz-center;
+        text-align: -webkit-center;
+    }

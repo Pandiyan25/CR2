@@ -1,0 +1,40 @@
+.head {
+    color: rgb(16 16 16);
+    font-size: 15px;
+    font-weight: 500;
+}
+.detail {
+    color: rgb(72 72 72);
+    font-weight: 400;
+    font-size: 14px;
+}
+.routeButton{
+    border: 0px;
+    background-color: #0967ff;
+    color: white;
+    padding: 10px 26px;
+  }
+  .routeButtonconf{
+    border: 0px;
+    background-color: #65ff57;
+    color: white;
+    padding: 10px 26px;
+}
+p.mb-2.detail.name {
+    font-size: 15px;
+    color: rgb(72 72 72);
+    font-weight: 500;
+}
+.imgdividea{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+p.mb-4.mr-2.project-nature.cs {
+    font-size: 11px;
+    font-weight: 400;
+}
+p.mb-3.project-nature.cs {
+    font-size: 11px;
+    font-weight: 400;
+}

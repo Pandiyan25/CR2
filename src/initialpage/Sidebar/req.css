@@ -1,0 +1,9 @@
+.img_not_updated {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+    /* border-radius: 50%; */
+}

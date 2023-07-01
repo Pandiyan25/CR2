@@ -1,0 +1,18 @@
+
+.Toastify__toast-container--top-right{
+    top: 4em;
+    right: 1em;
+  
+}
+
+
+.Toastify__toast--info{
+    /* background: #00caf9; */
+      background: rgb(43, 92, 108);
+    color:   #fff;
+}
+
+.Toastify__close-button.Toastify__close-button--info{
+    
+    color: #fff;
+}

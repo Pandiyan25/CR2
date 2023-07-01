@@ -1,0 +1,46 @@
+.button_private {
+  /* display: -ms-flexbox; */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: .75rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(.3rem - 1px);
+  border-bottom-left-radius: calc(.3rem - 1px);
+  border-top: 0px none;
+  justify-content: end;
+}
+
+.mainClassColm4 {
+  text-decoration: underline;
+  color: #6345ED;
+  cursor: pointer;
+}
+
+
+.docsSubmain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.docsmain {
+  min-width: 120px;
+}
+
+.docsSub1 {
+  color: rgb(0, 49, 196);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.docsSub2 {
+  color: #ee0303;
+  cursor: pointer;
+
+}

@@ -1,0 +1,26 @@
+.newbtt2{
+    
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    color: rgb(255, 255, 255);
+    width: auto;
+    border:solid 1px #6345ED;
+    padding:10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.newbtt{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    color: #6345ED !important;
+    width: auto !important;
+    border:solid 1px #6345ED !important; 
+    padding:10px 20px;
+    font-weight: 500;
+    font-size: 14px;
+   }
+
+
+   .newStylepart1 {
+    display: none;
+   }

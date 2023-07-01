@@ -1,0 +1,77 @@
+.e-gantt .e-gantt-tree-grid-pane .e-gridcontent .e-content {
+    overflow-x: hidden !important;
+}
+
+.e-grid .e-rowcell:last-child,
+.e-grid .e-summarycell:last-child {
+    padding: 0px !important;
+}
+
+.e-grid:not(.e-row-responsive) .e-gridcontent tr.e-row:first-child .e-rowcell {
+    border-top: 0px;
+    text-align: left !important;
+}
+
+.e-grid.e-responsive .e-rowcell,
+.e-grid.e-responsive .e-headercelldiv {
+    text-align: left !important;
+}
+
+.e-gantt .e-gantt-chart .e-gantt-child-taskbar-inner-div {
+    background-color: #3cd5ff !important;
+    border: 1px solid #00c5fb !important;
+    border-radius: 25px !important;
+}
+
+.e-gantt .e-gantt-chart .e-gantt-child-progressbar-inner-div {
+
+    background-color: #00c5fb !important;
+    border: 0px;
+}
+
+
+.avatar-uploader>.ant-upload {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.ant-upload-picture-card-wrapper {
+    float: right;
+    width: 90px !important;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid #00c5fb;
+    border-radius: 50px;
+}
+
+.chart {
+    width: 270px;
+
+}
+
+.widget-box {
+    width: 200px;
+}
+
+.widget-info-new {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dash-wid {
+
+    width: 200 px;
+    /* height: 760px; */
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    min-height: 75px !important;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    height: 100% !important;
+    margin: 0px;
+
+}

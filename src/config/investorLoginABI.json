@@ -1,0 +1,47 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_ad",
+                "type": "address"
+            }
+        ],
+        "name": "addInvestor",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllInvestorAddress",
+        "outputs": [
+            {
+                "internalType": "address[]",
+                "name": "",
+                "type": "address[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_ad",
+                "type": "address"
+            }
+        ],
+        "name": "verifyInvestor",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "condition",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

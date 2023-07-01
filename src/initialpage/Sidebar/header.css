@@ -1,0 +1,107 @@
+.top-nav-search div {
+	margin-top: 10px;
+	position: relative;
+	width: 230px;
+}
+
+
+@media only screen and (max-width: 991.98px) {
+	.top-nav-search div {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 767.98px) {
+	.top-nav-search div {
+		width: 210px;
+	}
+}
+
+.dropdown-toggle::after {
+	display: none
+}
+
+
+.connectbuttonMain {
+	word-spacing: normal;
+	background: white;
+	color: #1890ff;
+	padding: 0px 1px;
+	border-radius: 0px;
+	font-size: 14px;
+	width: 100px;
+	text-align: end;
+	padding: 0px 4px;
+	line-height: 18px !important;
+}
+
+.connectButtonSuperHead {
+	height: 60px;
+	display: flex;
+}
+
+.connectButtonHead {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	text-align: end;
+	margin-top: 10px;
+	border: 1px solid rgb(113, 24, 255);
+}
+
+/* style={{ 
+	wordSpacing: 'normal', 
+	background: 'white',
+	 color: '#1890ff',
+	  padding: '0px 4px', 
+	  borderRadius: '2px', 
+	  fontSize: '14px'
+	 }} */
+
+
+.transformstyle {
+	transform: translate3d(19px, 55px, 0px) !important;
+	height: 40px;
+	width: 105px;
+	overflow-y: auto;
+	min-height: 40px !important;
+	min-width: 105px !important;
+	padding: 0px !important;
+}
+
+.dropdown-meta-style{
+	padding: 5px !important
+}
+
+
+.firstGridHeader {
+    font-weight: 500;
+    margin-bottom: 1px;
+    font-size: 20px;
+    letter-spacing: -0.061em;
+    text-transform: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #1890ff;
+}
+
+.hrdottedline {
+	border-bottom: 1px solid #1890ff;
+	width: 70%;
+}
+
+.letterspac {
+	letter-spacing: 1px;
+}
+
+.mainspinspan {
+	height: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

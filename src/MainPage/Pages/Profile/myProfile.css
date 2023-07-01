@@ -1,0 +1,27 @@
+.gridClass {
+    display: grid;                       
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+        width:65%                           
+}
+
+
+
+.gridClassPreffered {
+  /* display: grid;                       
+grid-template-columns: auto auto auto auto;
+grid-gap: 10px; */
+display: grid;
+grid-template-columns: auto;
+grid-gap: 7px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;                     
+}
+.ft-weight{
+  font-weight: 500;
+}
+button.btn.submit-btn.cl{
+  border: 1px solid rgb(41, 122, 255);
+  color: #6345ED;
+}

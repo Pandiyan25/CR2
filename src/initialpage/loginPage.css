@@ -1,0 +1,94 @@
+
+
+.h5__side {
+    color: black;
+    font-size: 105%;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.grid_class_main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.noliststyle {
+  list-style: none;
+}
+.signinbg{
+  background: url(/src/assets/img/slidebg.png);
+}
+.det_abs{
+  position: fixed;
+  left: 15px;
+  bottom: -10px;
+  
+}
+
+
+@media (max-width: 576px) {
+ 
+  img{
+      width: 135px;
+  }
+}
+
+/* .imageliststyle {
+    list-style-image: url('../assets/img/verified.png');
+} */
+
+/* 
+li::before {
+    background-image: url('../assets/img/verified.png');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    background-image: url('../assets/img/verified.png');
+} */
+
+/* ul { */
+/* 
+    list-style-type: none;
+  
+  }
+  
+  
+  ul li:before {
+  
+    content: '';
+  
+    display: inline-block;
+  
+    height: 10px;
+  
+    width: 10px;
+  
+     background-size: 10px;
+  
+     background-image: url('../assets/img/verified.png');
+  
+    background-repeat: no-repeat;
+  
+    margin-right: 5px;
+  
+  } */
+
+  /* ul li:before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url('/img/css/sunflowers-sm.jpg');
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+  } */

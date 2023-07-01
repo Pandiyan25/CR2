@@ -1,0 +1,58 @@
+.btt{
+ background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ color: #6345ED;
+ width: auto;
+ border:solid 0px #6345ED;
+ padding:10px 20px;
+ font-weight: 400;
+ font-size: 14px;
+}
+.btt2{
+    
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    color: rgb(255, 255, 255);
+    width: auto;
+    border:solid 1px #6345ED;
+    padding:10px 20px;
+    font-weight: 500;
+
+}
+
+.btt:focus{
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    color: rgb(255, 255, 255);
+    width: auto;
+    border:solid 1px #6345ED;
+    padding:10px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    
+   }
+   .linkbt{
+    background: linear-gradient(90deg,#6345ED,#DC39FC);
+    border: 0px;
+    border-radius: 2px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+   }
+   p,h1,h2,h3,h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   }
+   .bcolor{
+    color:#6345ED;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2px;
+   }
+
+   @media screen and (max-width: 769px) {
+   
+    .mainct{
+        background-color: #297bff00;
+       }
+}
+  
